@@ -3,10 +3,14 @@ body {
     text-align: center;
 }
 
+li{
+    list-style: none;
+}
+
 h1 {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: violet;
+    color: white;
 }
 h2 {
     color: blueviolet;
@@ -19,30 +23,33 @@ p {
 }
 
 .topcontainer {
-    background-color: chartreuse;
+    background-color: #BABBB1;
     position: relative;
     padding-top: 100px;
-
-   
-
 }
 
 .middlecontainer {
-    background-color: deepskyblue;
-  
+    background-color: lightcyan;
+    padding-bottom: 16px; 
    
 }
 
 #profilepic {
     width: 200px;
     height: 200px;
+    border-radius: 50px;
 }
 
 .bottomcontainer {
-    background-color: deeppink;
+    background-color: #FF8674;
     height: 200px;
 }
 #contact {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+#about {
     color: aliceblue;
     font-size: 40px;
 }
